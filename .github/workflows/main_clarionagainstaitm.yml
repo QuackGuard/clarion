@@ -66,6 +66,6 @@ jobs:
         id: deploy-to-webapp
         with:
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          app-name: 'ClarionCSS'
+          app-name: 'clarionagainstaitm'
           slot-name: 'Production'
           
